@@ -1,0 +1,417 @@
+/* HOME SECTION */
+
+/* Reset default styles */
+ #index.html {
+  margin: 3rem;
+  padding: 3rem;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+#body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background: white;
+  color: plum;
+  line-height: 1.6;
+}
+
+/* Navigation bar */
+#nav {
+  background-color: deep purple; /* Deep purple */
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(27, 26, 26, 0.1);
+}
+
+#nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3 ease;
+}
+
+#nav ul li a:hover {
+  color: gray;
+}
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  padding-bottom: 40px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #4b0082;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Main Section */
+section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #4b0082;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+ul {
+  padding-left: 20px;
+  font-size: 1.1rem;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  section {
+    margin: 30px 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p, ul {
+    font-size: 1rem;
+  }
+}
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #4b0082;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Project Section */
+.projects {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #4b0082;
+  margin-bottom: 40px;
+}
+
+/* Project Gallery Grid */
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Project Cards */
+.details-container {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.details-container:hover {
+  transform: translateY(-5px);
+}
+
+.article-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.article-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projects-title {
+  font-size: 1.5rem;
+  margin: 15px;
+  color: #4b0082;
+  text-align: center;
+}
+
+/* Buttons */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-color-2 {
+  background-color: #4b0082;
+  color: #fff;
+}
+
+.btn-color-2:hover {
+  background-color: #3a0066;
+}
+
+/* Footer */
+footer {
+  background-color: #4b0082;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+}
+
+footer .nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+footer .nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer .nav-links li a:hover {
+  color: #ffcc00;
+}
+
+/* Responsive Text Sizes */
+@media (max-width: 768px) {
+  .projects h2 {
+    font-size: 2rem;
+  }
+
+  .projects-title {
+    font-size: 1.3rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px 14px;
+  }
+}
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Navigation */
+nav {
+  background-color: #4b0082;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin: 40px 0 30px;
+  color: #4b0082;
+  font-size: 2.5rem;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto 60px;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: #4b0082;
+  margin-bottom: 6px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  padding: 12px 15px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  border-color: #4b0082;
+  outline: none;
+}
+
+/* Submit Button */
+.contact-form button[type="submit"] {
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #3a0066;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .contact-form {
+    padding: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+
+
